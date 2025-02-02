@@ -139,17 +139,16 @@ aside:
     # 介绍 / Introduction
     description: 只有迎风，风筝才能飞得更高。
     # 内容 / Content
-    content: # 这是我的博客 / This is my Blog
+    content: This is my Blog
     state:
-      morning: ✨ 早上好，新的一天开始了
-      noon: 🍲 午餐时间
-      afternoon: 🌞 下午好
-      night: 早点休息
-      goodnight: 晚安 😴
+      morning: ✨ good morning
+      noon: 🍲 lunch time
+      afternoon: 🌞 good afternoon
+      night: 🌙 time for bed
+      goodnight: 😴 good night
     witty_words:
-      # - 你可以的
-      # - 你一定可以的
-      # - 祝你好运，陌生人
+      - You can do it
+      - Good luck, stranger
     # social
     # 社交信息图标
     information:
@@ -236,7 +235,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # -  # 默认图片 / default cover
+      -  default cover
     # Location
     # 位置
     locate: China
@@ -588,7 +587,7 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 # Capsule music
 # 音乐胶囊
 capsule:
-  enable: false
+  enable: enable
   # 歌单 ID / 单曲 ID
   id: 5144842535
   # 服务商：netease / qq / xiami / kugou / baidu
